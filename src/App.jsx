@@ -1,9 +1,11 @@
 import "assets/scss/styles.scss";
 
 import React, { Component } from "react";
-import SayHello from "./components/SayHello";
-import Counter from "./components/Counter";
-import NameForm from "./components/NameForm";
+import SayHello from "components/SayHello";
+import Counter from "components/Counter";
+import NameForm from "components/NameForm";
+import Mood from "components/Mood";
+import WillUnmount from "components/WillUnmount";
 
 class App extends Component {
 	constructor(constructor) {
@@ -17,6 +19,8 @@ class App extends Component {
 				<SayHello name="Florian" />
 				<Counter />
 				<NameForm />
+				<Mood />
+				<WillUnmount />
 			</>
 		);
 	}
